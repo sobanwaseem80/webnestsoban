@@ -1,4 +1,5 @@
 # Roadmap
 
-- [ ] Enhance hero section (premium UI, hierarchy, CTAs, depth, animated accents)
-- [ ] Enhance all other sections to match (about, education/experience, skills, services, projects, contact)
+- [x] Enhance hero section
+- [x] Enhance all other sections
+- [ ] Replace hero portrait with real photo (postimg URL), verify in preview
