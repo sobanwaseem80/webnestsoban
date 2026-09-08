@@ -114,6 +114,14 @@ const services = [
 
 const projects = [
   {
+    title: "AlChemist Pharmacy",
+    tag: "Pharmacy Website",
+    stack: "HTML · CSS · JavaScript",
+    image: pharmImg.url,
+    body: "A modern and responsive pharmacy website with a clean user interface and online product browsing experience.",
+    href: "https://webnestsoban.online/",
+  },
+  {
     title: "Wristik",
     tag: "In progress",
     stack: "Vite · React",
