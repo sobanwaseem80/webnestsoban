@@ -24,6 +24,7 @@ import { Toaster } from "@/components/ui/sonner";
 import profileImg from "@/assets/profile.jpg";
 import wristikImg from "@/assets/project-wristik.jpg";
 import guessImg from "@/assets/project-guess.jpg";
+import pharmImg from "@/assets/pharm.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
