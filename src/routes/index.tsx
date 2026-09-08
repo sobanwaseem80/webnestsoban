@@ -119,7 +119,7 @@ const projects = [
     stack: "HTML · CSS · JavaScript",
     image: pharmImg.url,
     body: "A modern and responsive pharmacy website with a clean user interface and online product browsing experience.",
-    href: "https://webnestsoban.online/",
+    href: "https://github.com/sobanwaseem80/Al-Chemist-Pharmacy.git",
   },
   {
     title: "Wristik",
@@ -572,7 +572,10 @@ function Portfolio() {
                       rel="noreferrer"
                       className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent-glow"
                     >
-                      Play it live <ArrowUpRight className="h-4 w-4" />
+                      {project.href.includes("github.com")
+                        ? "View on GitHub"
+                        : "Play it live"}{" "}
+                      <ArrowUpRight className="h-4 w-4" />
                     </a>
                   ) : (
                     <p className="mt-5 text-sm text-muted-foreground/80">
