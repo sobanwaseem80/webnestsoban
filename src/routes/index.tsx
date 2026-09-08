@@ -24,6 +24,7 @@ import { Toaster } from "@/components/ui/sonner";
 import profileImg from "@/assets/profile.jpg";
 import wristikImg from "@/assets/project-wristik.jpg";
 import guessImg from "@/assets/project-guess.jpg";
+import pharmImg from "@/assets/pharm.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -112,6 +113,14 @@ const services = [
 ];
 
 const projects = [
+  {
+    title: "AlChemist Pharmacy",
+    tag: "Pharmacy Website",
+    stack: "HTML · CSS · JavaScript",
+    image: pharmImg.url,
+    body: "A modern and responsive pharmacy website with a clean user interface and online product browsing experience.",
+    href: "https://webnestsoban.online/",
+  },
   {
     title: "Wristik",
     tag: "In progress",
