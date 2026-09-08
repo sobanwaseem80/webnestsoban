@@ -119,7 +119,7 @@ const projects = [
     stack: "HTML · CSS · JavaScript",
     image: pharmImg.url,
     body: "A modern and responsive pharmacy website with a clean user interface and online product browsing experience.",
-    href: "https://webnestsoban.online/",
+    href: "https://github.com/sobanwaseem80/Al-Chemist-Pharmacy.git",
   },
   {
     title: "Wristik",
